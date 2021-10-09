@@ -1,0 +1,78 @@
+body {
+  background-image: url(../pics/mariage-en-blanc.jpg);
+  background-size: cover;
+}
+#card-container {
+  width: 450px;
+  height: 600px;
+  position: relative;
+  background-image: url(../pics/mariagecardbackground.jpg);
+  background-size: cover;
+  margin-top: 30px;
+  margin-left: 80px;
+  box-shadow: burlywood;
+}
+button {
+  background-color: rgb(243, 220, 191);
+  width: 300px;
+  height: 50px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 155px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "sofia", sans-serif;
+  box-shadow: cadetblue;
+  border: none;
+}
+button:active {
+  font-size: 21px;
+}
+#text {
+  position: relative;
+  width: 240px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "sofia", sans-serif;
+  padding-top: 150px;
+  margin-left: 143px;
+  text-align: center;
+}
+#h-name {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 150px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "sofia", sans-serif;
+}
+#and {
+  position: relative;
+  margin-left: 220px;
+  font-size: 20px;
+  font-family: "sofia", sans-serif;
+}
+#w-name {
+  position: relative;
+  margin-left: 150px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "sofia", sans-serif;
+}
+#m-adress {
+  position: relative;
+  margin-left: 150px;
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "sofia", sans-serif;
+}
+#m-date {
+  position: relative;
+  margin-left: 150px;
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "sofia", sans-serif;
+}
