@@ -1,0 +1,61 @@
+body {
+  background-image: url(./pics/vIRVjy.jpg);
+  background-size: cover;
+}
+#welcome {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 22%;
+  margin-right: auto;
+  font-family: "sofia", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(119, 240, 213);
+}
+#quote {
+  margin-top: 30px;
+  margin-left: 0%;
+  margin-right: auto;
+  position: relative;
+  font-family: "sofia", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+#events-container {
+  width: max-content;
+  height: 400px;
+  position: relative;
+  margin-top: 45px;
+  margin-left: 200px;
+  text-align: center;
+  background-color: rgb(250, 243, 243);
+  opacity: 0.8;
+}
+.event{
+    width: 350px;
+    font-size: 40px;
+    cursor: pointer;
+    color: rgb(230, 78, 78);
+    font-family: fantasy;
+    font-size: 55px;
+    opacity: 1;
+}
+.event:active{
+    font-size: 60px;
+}
+.seperator{
+    width: 5px;
+    background-color: white;
+}
+#marriage{
+    background-image: url(./pics/photo-1484849757660-7c00c60726b6.jpg);
+}
+#party{
+    background-image: url(./pics/istockphoto-1247853982-170667a.jpg);
+    background-size: cover;
+}
+#social-event{
+    background-image: url(./pics/370a4277-tn.jpg);
+}
