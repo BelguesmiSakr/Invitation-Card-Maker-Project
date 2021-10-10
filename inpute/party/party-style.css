@@ -1,5 +1,5 @@
 body {
-  background-image: url(../pics/photo-1495609000883-209fc68187ef.jpg);
+  background-image: url(/pics/istockphoto-1069137774-170667a.jpg);
   background-size: cover;
 }
 #all {
@@ -20,7 +20,6 @@ body {
   display: inline-block;
   width: 200px;
 }
-
 a:active,
 a:link,
 a:visited,
@@ -38,7 +37,7 @@ a:hover {
   border: none;
 }
 label {
-  font-family:"sofia", sans-serif;;
+  font-family: "sofia", sans-serif;
   font-size: 27px;
   font-weight: bold;
   color: rgb(134, 1, 1);

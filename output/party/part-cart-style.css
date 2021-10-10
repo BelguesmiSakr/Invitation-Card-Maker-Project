@@ -1,0 +1,71 @@
+body {
+  background-image: url(/pics/suprise-party-ideas.jpg);
+  background-size: cover;
+}
+#card-container {
+  width: 600px;
+  height: 600px;
+  margin-top: 25px;
+  margin-left: 800px;
+  background-image: url(/pics/party\ card.jpg);
+  background-size: cover;
+}
+button {
+  background-color: rgb(243, 220, 191);
+  width: 300px;
+  height: 50px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 950px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family:fantasy;
+  box-shadow: cadetblue;
+  border: none;
+}
+button:active {
+  font-size: 21px;
+}
+#text{
+    position: relative;
+    width: 350px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: fantasy;
+    padding-top: 130px;
+    margin-left: 125px;
+    text-align: center;
+}
+#type{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 190px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+#organzer{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: fantasy;
+}
+#p-adress{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 210px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: fantasy;
+}
+#p-date{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 240px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: fantasy;
+}
