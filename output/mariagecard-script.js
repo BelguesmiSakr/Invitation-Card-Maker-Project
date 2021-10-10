@@ -1,7 +1,7 @@
 setTimeout(function() {
     $("#card-container").append(
     `<div id="text">
-    We are pleased to join us for a casual party to celebrate the love and marriage of our brides
+    We are pleased to join us for a casual party to celebrate the love and marriage of 
     </div>`
     +`<div id="h-name">`+
     localStorage.getItem("husband-name")

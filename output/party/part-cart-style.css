@@ -9,6 +9,8 @@ body {
   margin-left: 800px;
   background-image: url(/pics/party\ card.jpg);
   background-size: cover;
+  /* display: flex; */
+  /* align-items: center; */
 }
 button {
   background-color: rgb(243, 220, 191);
@@ -19,7 +21,7 @@ button {
   margin-left: 950px;
   border-radius: 5px;
   font-size: 25px;
-  font-family: fantasy;
+  font-family: "Akronim", cursive;
   box-shadow: cadetblue;
   border: none;
 }
@@ -28,48 +30,54 @@ button:active {
 }
 #text {
   position: relative;
-  width: 350px;
+  width: 322px;
   height: 50px;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: fantasy;
-  padding-top: 130px;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: "Akronim", cursive;
+  padding-top: 90px;
   margin-left: 125px;
   text-align: center;
+  align-items: center;
 }
 #type {
   position: relative;
-  margin-top: 30px;
+  margin-top: 110px;
   margin-left: 190px;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
-  font-family: fantasy;
+  font-family: "Akronim", cursive;
+  align-items: center;
+  max-width: 300px;
 }
 #organzer {
   position: relative;
-  margin-top: 50px;
-  margin-left: 175px;
-  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 165px;
+  font-size: 30px;
   font-weight: normal;
-  font-family: fantasy;
+  font-family: "Akronim", cursive;
   max-width: 250px;
   text-align: center;
+  align-items: center;
 }
 #p-adress {
   position: relative;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 175px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: normal;
-  font-family: fantasy;
+  font-family: "Akronim", cursive;
   max-width: 250px;
   text-align: center;
+  align-items: center;
 }
 #p-date {
   position: relative;
-  margin-top: 40px;
-  margin-left: 250px;
-  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 220px;
+  font-size: 30px;
   font-weight: normal;
-  font-family: fantasy;
+  font-family: "Akronim", cursive;
+  align-items: center;
 }

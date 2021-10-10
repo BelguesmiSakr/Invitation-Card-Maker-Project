@@ -69,3 +69,6 @@ a:hover {
 #social-event {
   background-image: url(./pics/370a4277-tn.jpg);
 }
+th {
+  box-shadow: 5px 10px 18px #888888;
+}
