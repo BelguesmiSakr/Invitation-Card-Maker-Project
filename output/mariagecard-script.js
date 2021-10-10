@@ -1,4 +1,4 @@
-$("#show-card").on("click",function() {
+setTimeout(function() {
     $("#card-container").append(
     `<div id="text">
     We are pleased to join us for a casual party to celebrate the love and marriage of our brides
@@ -14,8 +14,8 @@ $("#show-card").on("click",function() {
     +`</div>
     <div id="m-date">On: `+
     localStorage.getItem("date")
-    +`</div>`)
-})
+    +`</div>`)    
+},500)
 
 
 

@@ -1,12 +1,12 @@
-setTimeout(function() {
+setTimeout( function() {
     $("#card-container").append(
     `<div id="text">
-    You are invited to join us for a
+    WE CORDIALLY INVITE YOU FOR
     </div>`
-    +`<div id="type">`+
-    localStorage.getItem("party-type")
-    +` Party</div>
-    <div id="organzer">Organized by `+
+    +`<div id="event">`+
+    localStorage.getItem("event")
+    +`</div>
+    <div id="organzer">Hosted by `+
     localStorage.getItem("organzer")
     +`</div>
     <div id="p-adress">Adress: `+
