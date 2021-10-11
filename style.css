@@ -55,6 +55,10 @@ a:hover {
 .event:active {
   font-size: 60px;
 }
+.event:hover {
+  transform: scale(1.04, 1.04);
+  transition: 0.3s transform;
+}
 .seperator {
   width: 5px;
   background-color: white;

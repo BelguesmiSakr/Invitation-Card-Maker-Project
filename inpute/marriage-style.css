@@ -53,8 +53,9 @@ button {
   border-radius: 5px;
   font-size: 20px;
   font-family: "sofia", sans-serif;
-  box-shadow: cadetblue;
+  /* box-shadow: 2px 2px 2px 2px rgb(241, 237, 223); */
   border: none;
+  cursor: pointer;
 }
 a {
   color: black;

@@ -9,10 +9,10 @@ setTimeout(function() {
     <div id="w-name">`+
     localStorage.getItem("wife-name")
     +`</div>
-    <div id="m-adress">Adress: `+
+    <div id="m-adress">Adress : `+
     localStorage.getItem("adress")
     +`</div>
-    <div id="m-date">On: `+
+    <div id="m-date">On : `+
     localStorage.getItem("date")
     +`</div>`)    
 },500)
